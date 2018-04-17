@@ -9,14 +9,13 @@ water_memory = True
 
 
 class Homeo:
-    """class doc"""
+    """It does the thing."""
 
     def __init__(self, _file, solvent=None, ntimes=None):
-        """method doc"""
+        """Starting this was a bad idea from the very beginning."""
         self._file = _file
         self.solvent = solvent
         self.ntimes = ntimes
-        pass
 
     def dilute(self, words, solvent="~"):
         """Dilute a list of words into a solvent.
